@@ -1,0 +1,208 @@
+:root {
+    --main-color:#212121;
+    --second-color:#2196F3;
+    --third-color:#757575;
+    --fourth-color:#FFFFFF;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--main-color)
+    background-color: var(--fourth-color)
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.page-header {
+border-bottom: 1px solid #ECECEC;
+padding-top: 24px;
+}
+
+.hero {
+    background-color:#2F303A;
+}
+
+footer {
+background-color:#2F303A;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+list-style: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.colortext {
+color: #000000;
+}
+
+.colortext-footer {
+color: #FFFFFF;
+}
+
+.logo {
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: calc(31/26);
+letter-spacing: 0.03em;
+color: var(--second-color);
+}
+
+.header-list-link {
+font-weight: 500;
+font-size: 14px;
+line-height: calc(16/14);
+letter-spacing: 0.02em;
+color: var(--main-color);
+}
+
+.header-list-link:hover {
+color: var(--second-color);
+}
+
+.header-kontakt-link {
+font-weight: 500;
+font-size: 14px;
+line-height: calc(16/14);
+letter-spacing: 0.02em;
+color: var(--third-color);
+}
+
+.header-kontakt-link:hover,:focus {
+color: var(--second-color);
+}
+
+.hero-title {
+font-weight: 900;
+font-size: 44px;
+line-height: calc(60/44);
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--fourth-color);
+}
+
+.hero-button {
+font-weight: 700;
+font-size: 16px;
+line-height: calc(30/16);
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: var(--fourth-color);
+cursor: pointer;
+}
+
+.peculiarities-title {
+font-size: 14px;
+line-height: calc(16/14);
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.peculiarities-text  {
+font-size: 14px;
+line-height: calc(24/14);
+letter-spacing: 0.03em;
+color: var(--third-color);
+}
+
+.activity-title {
+font-size: 36px;
+line-height: calc(42/36);
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+.team-title {
+font-size: 36px;
+line-height: calc(42/36);
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+.team-secondary-title {
+font-weight: 500;
+font-size: 16px;
+line-height: calc(19/16);
+letter-spacing: 0.03em;
+}
+
+.team-text {
+font-size: 16px;
+line-height: calc(16/19);
+letter-spacing: 0.03em;
+color: var(--third-color);
+}
+
+.address-link {
+font-style: normal;
+font-size: 14px;
+line-height: calc(24/14);
+letter-spacing: 0.03em;
+color: var(--fourth-color)
+}
+
+.address-link:hover,:focus {
+    color: var(--second-color);
+}
+
+.mail-tel-link {
+font-style: normal;
+font-size: 14px;
+line-height: calc(24/14);
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+
+.mail-tel-link:hover, :focus {
+    color: var(--second-color);
+}
+
+.hero-nav-button {
+font-weight: 500;
+font-size: 16px;
+line-height: calc(26/16);
+text-align: center;
+letter-spacing: 0.03em;
+cursor: pointer;
+}
+
+.hero-nav-button:hover {
+    color: var(--fourth-color);
+}
+
+.cards-title {
+font-size: 18px;
+line-height: calc(36/18);
+letter-spacing: 0.06em;
+}
+
+.cards-text {
+font-size: 16px;
+line-height: calc(30/16);
+letter-spacing: 0.03em;
+color: var(--third-color);
+}
