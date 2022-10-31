@@ -4,6 +4,10 @@
   --third-color: #757575;
   --fourth-color: #ffffff;
   --specific-ident: 94px;
+  --specific-ident-second: 50px;
+  --specific-ident-third: 20px;
+  --specific-ident-fourth: 4px;
+  --specific-ident-fifth: 30px;
 }
 
 h1,
@@ -47,7 +51,7 @@ body {
   padding-top: 200px;
   padding-bottom: 200px;
   padding-left: 280px;
-  padding-right: 50px;
+  padding-right: var(--specific-ident-second);
 }
 
 .hero .container {
@@ -62,7 +66,7 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--fourth-color);
-  margin-bottom: 20px;
+  margin-bottom: var(--specific-ident-third);
   max-width: 696px;
 }
 
@@ -77,7 +81,7 @@ body {
   color: var(--fourth-color);
   cursor: pointer;
   padding: 10px 32px;
-  border-radius: 4px;
+  border-radius: var(--specific-ident-fourth);
   border: 0;
 }
 
@@ -138,7 +142,7 @@ button {
   letter-spacing: 0.03em;
   color: var(--second-color);
   display: inline-block;
-  margin-bottom: 20px;
+  margin-bottom: var(--specific-ident-third);
   margin-right: 93px;
 }
 
@@ -172,11 +176,11 @@ button {
 }
 
 .header-list-item:not(:first-child) {
-  margin-left: 50px;
+  margin-left: var(--specific-ident-second);
 }
 
 .kontakt-list-item:not(:first-child) {
-  margin-left: 50px;
+  margin-left: var(--specific-ident-second);
 }
 
 .header-kontakt-list {
@@ -193,7 +197,7 @@ button {
 }
 
 .peculiarities-list-item:not(:first-child) {
-  margin-left: 30px;
+  margin-left: var(--specific-ident-fifth);
 }
 
 .peculiarities {
@@ -228,11 +232,11 @@ button {
   line-height: calc(42 / 36);
   text-align: center;
   letter-spacing: 0.03em;
-  margin-bottom: 50px;
+  margin-bottom: var(--specific-ident-second);
 }
 
 .activity-list-item:not(:first-child) {
-  margin-left: 30px;
+  margin-left: var(--specific-ident-fifth);
 }
 
 .team-list {
@@ -245,11 +249,11 @@ button {
 }
 
 .team-img {
-  margin-bottom: 30px;
+  margin-bottom: var(--specific-ident-fifth);
 }
 
 .team-list-item:not(:first-child) {
-  margin-left: 30px;
+  margin-left: var(--specific-ident-fifth);
 }
 
 .team-title {
@@ -257,7 +261,7 @@ button {
   line-height: calc(42 / 36);
   text-align: center;
   letter-spacing: 0.03em;
-  margin-bottom: 50px;
+  margin-bottom: var(--specific-ident-second);
 }
 
 .team-secondary-title {
@@ -276,7 +280,7 @@ button {
   letter-spacing: 0.03em;
   color: var(--third-color);
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: var(--specific-ident-fifth);
 }
 
 .address-link {
@@ -315,7 +319,7 @@ button {
   cursor: pointer;
   padding: 6px 25px;
   border: 0;
-  border-radius: 4px;
+  border-radius: var(--specific-ident-fourth);
 }
 
 .nav-button-second {
@@ -328,7 +332,7 @@ button {
   cursor: pointer;
   padding: 6px 22px;
   border: 0;
-  border-radius: 4px;
+  border-radius: var(--specific-ident-fourth);
 }
 
 .hero-nav-button:hover {
@@ -350,7 +354,7 @@ button {
   font-size: 18px;
   line-height: calc(36 / 18);
   letter-spacing: 0.06em;
-  margin-bottom: 4px;
+  margin-bottom: var(--specific-ident-fourth);
   color: var(--main-color);
 }
 
@@ -359,7 +363,7 @@ button {
   line-height: calc(30 / 16);
   letter-spacing: 0.03em;
   color: var(--third-color);
-  padding-bottom: 20px;
+  padding-bottom: var(--specific-ident-third);
 }
 
 .cards-list {
@@ -368,8 +372,8 @@ button {
 }
 
 .cards-list-item {
-  margin-bottom: 30px;
-  margin-left: 30px;
+  margin-bottom: var(--specific-ident-fifth);
+  margin-left: var(--specific-ident-fifth);
 }
 
 .cards-list-item:nth-last-child(-n + 4) {
@@ -382,12 +386,12 @@ button {
 
 .cards-img {
   display: block;
-  margin-bottom: 20px;
+  margin-bottom: var(--specific-ident-third);
 }
 
 .hero-nav {
   display: flex;
-  margin-bottom: 50px;
+  margin-bottom: var(--specific-ident-second);
   justify-content: center;
 }
 
