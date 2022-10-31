@@ -351,6 +351,7 @@ button {
   line-height: calc(36 / 18);
   letter-spacing: 0.06em;
   margin-bottom: 4px;
+  color: var(--main-color);
 }
 
 .cards-text {
