@@ -347,7 +347,7 @@ button {
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
-  padding: 0 24px;
+  padding: 20px 24px;
 }
 
 .cards-title {
@@ -363,7 +363,6 @@ button {
   line-height: calc(30 / 16);
   letter-spacing: 0.03em;
   color: var(--third-color);
-  padding-bottom: var(--specific-ident-third);
 }
 
 .cards-list {
@@ -386,7 +385,6 @@ button {
 
 .cards-img {
   display: block;
-  margin-bottom: var(--specific-ident-third);
 }
 
 .hero-nav {
