@@ -45,11 +45,11 @@ body {
 
 .hero {
   background-color: #2f303a;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-description {
-  padding-top: 200px;
-  padding-bottom: 200px;
   padding-left: 280px;
   padding-right: var(--specific-ident-second);
 }
@@ -83,6 +83,8 @@ body {
   padding: 10px 32px;
   border-radius: var(--specific-ident-fourth);
   border: 0;
+  margin: 0 auto;
+  background-color: var(--second-color);
 }
 
 .page-footer {
@@ -121,7 +123,11 @@ button {
 }
 
 .colortext-footer {
-  color: #ffffff;
+  color: var(--fourth-color);
+}
+
+.link.current {
+  color: var(--second-color);
 }
 
 .logo {
@@ -143,7 +149,6 @@ button {
   color: var(--second-color);
   display: inline-block;
   margin-bottom: var(--specific-ident-third);
-  margin-right: 93px;
 }
 
 .header-list {
@@ -252,6 +257,13 @@ button {
   margin-bottom: var(--specific-ident-fifth);
 }
 
+.team-list-item {
+  background-color: var(--fourth-color);
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
 .team-list-item:not(:first-child) {
   margin-left: var(--specific-ident-fifth);
 }
@@ -339,8 +351,10 @@ button {
   color: var(--fourth-color);
 }
 
-.nav-button-second:hover {
+.nav-button-second:hover,
+.nav-button-second:focus {
   color: var(--fourth-color);
+  background-color: var(--second-color);
 }
 
 .container-border {
